@@ -1,0 +1,57 @@
+.mc-image {
+  border-radius: 20px;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 15px;
+  background-color: lightgray;
+}
+
+.mc-image.big {
+  width: 500px;
+  height: 350px;
+  background-size: cover;
+  background-position: top;
+}
+
+.mc-image.small{
+  width: 175px;
+  height: 262px;
+}
+
+.mc-title-info {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.mc-publish{
+  font-size: 12px;
+}
+
+.mc-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mc-title.small {
+  font-size: 18px;
+}
+
+.mc-vote-info {
+  justify-content: space-between;
+  p {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+}
+
+.mc-rate-svg {
+  width: 10px;
+  margin-right: 10px;
+}
+
+.error-image {
+  width: 150px;
+  margin-bottom: 10px;
+}

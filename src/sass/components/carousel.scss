@@ -1,0 +1,56 @@
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  display: inline-flex;
+  transition: transform 1s;
+  padding-left: 15%;
+}
+
+.carousel-item {
+  margin: 0 25px;
+}
+
+.carousel-arrow {
+  width: 25px;
+  z-index: 99;
+}
+
+.control-left {
+  left: 0;
+}
+
+.control-right {
+  right: 0
+}
+
+.control-backdrop {
+  position: absolute;
+  @include top-left;
+  @include full-screen;
+}
+
+.control-left .control-backdrop {
+  background-image: linear-gradient(to right, rgba(0,0,0,0.05) , rgba(0,0,0,0.0));
+}
+
+.control-right .control-backdrop {
+  background-image: linear-gradient(to left, rgba(0,0,0,0.05) , rgba(0,0,0,0.0));
+}
+
+.control-content {
+  @include full-screen;
+  position: relative;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  cursor: pointer;
+  height: 100%;
+  width: 15%;
+}

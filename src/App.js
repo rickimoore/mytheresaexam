@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import './sass/App.scss';
+import store from "./redux/store";
+import {Provider} from "react-redux";
+import Landing from "./pages/Landing";
+import ViewDetails from "./pages/ViewDetails";
+import PersistCart from "./components/PersistCart";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Provider store={store}>
+          <PersistCart/>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Landing} />
+            <Route path={"/view/:type/:category/:id"} component={ViewDetails} />
+          </Switch>
+        </Router>
+      </Provider>
   );
 }
 

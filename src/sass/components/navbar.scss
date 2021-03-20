@@ -1,0 +1,23 @@
+.nav-container {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  @include top-left;
+}
+
+.nav-content {
+  padding: 10px 100px;
+  width: 100%;
+  align-items: center;
+}
+
+.white-nav {
+  background: $white;
+  border-bottom: 1px solid $grey;
+}
+
+.nav-logo {
+  font-family: $pop-rock;
+  color: $pink;
+  font-size: 18px;
+}

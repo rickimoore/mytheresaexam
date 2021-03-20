@@ -1,0 +1,56 @@
+.detail-page {
+  padding-top: 100px;
+}
+
+.detail-jumbo {
+  width: 85%;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.detail-section {
+  position: relative;
+}
+
+.detail-poster-card {
+  width: 300px;
+  height: 450px;
+  background-color: $lightGrey;
+  position: absolute;
+  left: 15%;
+  top: -200px;
+  background-size: contain;
+  background-position: top;
+  border-radius: 15px;
+}
+
+.detail-overview {
+  max-width: 600px;
+  h1, p {
+    margin-bottom: 15px;
+  }
+}
+
+.detail-info {
+  width: 100%;
+  padding-left: 40%;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+
+.detail-rate {
+  align-items: center;
+  p {
+    margin-right: 15px;
+  }
+}
+
+.detail-rate-svg {
+  width: 45px;
+}
+.detail-rate-average {
+  margin-left: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}

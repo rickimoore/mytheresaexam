@@ -1,0 +1,26 @@
+.section-container {
+  margin-top: 50px;
+}
+
+.section-info {
+  margin-bottom: 25px;
+  padding-left: 100px;
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+.section-movie {
+  cursor: pointer;
+}
+
+.landing .jumbo-headline {
+  font-family: $pop-rock;
+  font-size: 100px;
+  line-height: 1.8;
+}

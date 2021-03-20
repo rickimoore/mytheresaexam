@@ -1,0 +1,25 @@
+.jumbo-container {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  color: $white;
+}
+
+.jumbo-backdrop {
+  @include full-screen;
+  @include top-left;
+  background: $black;
+  opacity: .3;
+  position: absolute;
+}
+
+.jumbo-text {
+  z-index: 99;
+  text-align: center;
+}
+
+.jumbo-headline {
+  font-size: 72px;
+  font-weight: bold;
+}

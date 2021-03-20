@@ -1,0 +1,19 @@
+.call-to-action {
+  border: 1px solid #E77471;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #E77471;
+  &:hover {
+    background: #E77471;
+    color: white;
+  }
+}
+
+.disabled-action {
+  background: $grey;
+  color: $darkGrey;
+  cursor: default;
+  border-color: $grey;
+  pointer-events: none;
+}

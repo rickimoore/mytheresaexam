@@ -1,0 +1,5 @@
+export const ActionTypes = {
+    ADD_TO_CART: 'ADD_TO_CART',
+    REMOVE_FROM_CART: 'REMOVE_FROM_CART',
+    PERSIST_CART_DATA: 'PERSIST_CART_DATA'
+}
