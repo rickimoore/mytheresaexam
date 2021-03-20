@@ -1,6 +1,6 @@
 import React from "react";
 import NavBarCart from "./nav-cart/NavBarCart";
-import { withRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Navbar extends React.Component {
     render() {

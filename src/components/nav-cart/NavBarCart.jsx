@@ -2,7 +2,7 @@ import React from "react";
 import {connect} from "react-redux";
 import {CAROUSEL_TYPES} from "../../helpers/constants";
 import CartSection from "./CartSection";
-import {addItemToCart, removeItemFromCart} from "../../redux/actions";
+import {removeItemFromCart} from "../../redux/actions";
 import setCookie from "../../helpers/setCookie";
 
 
