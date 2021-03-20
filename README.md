@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with My Theresa
 
 In response to the code challenge given by MyTheresa. 
 This React App implements the TMBD Movie API to list upcoming, popular and the best
