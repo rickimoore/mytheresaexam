@@ -5,7 +5,7 @@ import {persistCartData} from "../redux/actions";
 
 class PersistCart extends React.Component {
     componentDidMount() {
-        const cookie = getCookie("shop-cart");
+        const cookie = getCookie("shop-cart", document);
 
         if(!cookie) return;
         const {dispatch} = this.props;

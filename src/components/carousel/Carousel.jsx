@@ -21,7 +21,7 @@ class Carousel extends React.Component {
     componentDidMount() {
         const {delay, disabled} = this.props;
         const {slideCount} = this.state;
-        const carouselWidth = this.carouselSlide.current.offsetWidth;
+        const carouselWidth = this.carouselSlide.current ? this.carouselSlide.current.offsetWidth : 0;
         const increment = (carouselWidth / slideCount) ;
 
         this.setState({increment});

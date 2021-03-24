@@ -48,7 +48,7 @@ class NavBarCart extends React.Component {
     }
     removeItem = id => {
         this.removeFromCart(id).then(() => {
-            setCookie("shop-cart", JSON.stringify(this.props.cart), 60);
+            setCookie(document,"shop-cart", JSON.stringify(this.props.cart), 60);
         })
     }
     removeFromCart = id => new Promise(resolve => {

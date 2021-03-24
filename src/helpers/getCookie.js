@@ -1,4 +1,4 @@
-const getCookie = (cname) => {
+const getCookie = (cname, document) => {
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');

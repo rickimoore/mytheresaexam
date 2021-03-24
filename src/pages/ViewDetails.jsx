@@ -47,7 +47,7 @@ class ViewDetails extends React.Component {
 
     saveMovieItem = () => {
         this.addToCart().then(() => {
-            setCookie("shop-cart", JSON.stringify(this.props.cart), 60);
+            setCookie(document,"shop-cart", JSON.stringify(this.props.cart), 60);
         })
     }
 
